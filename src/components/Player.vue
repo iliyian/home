@@ -73,17 +73,17 @@ const props = defineProps({
   // 歌曲服务器 ( netease-网易云, tencent-qq音乐 )
   songServer: {
     type: String,
-    default: "netease", //'netease' | 'tencent'
+    default: "tencent", //'netease' | 'tencent'
   },
   // 播放类型 ( song-歌曲, playlist-播放列表, album-专辑, search-搜索, artist-艺术家 )
   songType: {
     type: String,
-    default: "playlist",
+    default: "song",
   },
   // id
   songId: {
     type: String,
-    default: "7452421335",
+    default: "0023V1Q41C7h1C",
   },
   // 列表是否默认折叠
   listFolded: {
