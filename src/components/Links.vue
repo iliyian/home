@@ -51,8 +51,6 @@ import { mainStore } from "@/store";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Mousewheel } from "swiper";
 import siteLinks from "@/assets/siteLinks.json";
-import "swiper/scss";
-import "swiper/scss/pagination";
 
 const store = mainStore();
 
